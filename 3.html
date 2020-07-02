@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>project-list</title>
+</head>
+<style>
+body{font-family: 'NanumSquare', sans-serif;}
+
+		*{padding:0;
+		  margin:0;}
+
+
+		/*네비게이션바*/
+		.navigationbar{height:120px;}
+
+		.navigationbar #menu{float:left;
+                     list-style:none;
+                 	 padding-left:60px;}
+
+		.navigationbar #menu li{float:left;
+						margin-right:32px;
+                        line-height:120px;}
+
+		.navigationbar #menu li a{text-decoration:none;
+                          color:#545454;
+                          font-size:21px;
+                          font-weight:medium;}
+
+		/*제목*/
+        h1{margin-top:56px;
+          font-size:56px;
+           text-align:left;
+          padding-left:172px;}
+
+      
+        /*프로젝트*/
+        .title{font-size:18px;
+        	   color:black;
+        	   margin-top:24px;
+        	   font-weight:bold;
+        	   text-align:center;}
+		
+		.list{margin-top:80px;
+			  margin-left:auto;
+			  margin-right:auto;
+			  padding-left:172px;
+			  }
+
+		.project-list{width:320px;
+					  height:320px;
+					  border:1px solid black;
+					  float:left;
+ 					  margin-right:116px;
+ 					  }
+
+ 		a{text-decoration:none;}
+
+ 		.project-list :hover{border-bottom :2px solid black;}
+
+</style>
+
+
+
+
+<body>
+	<!--네비게이션 바-->
+	<div class="navigationbar">
+		<ul id="menu">
+  			<li><a href="1.html">Home</a></li>
+  			<li><a href="2.html">Profile</a></li>
+  			<li><a href="3.html">Project</a></li>
+ 		    <li><a href="7.html">Contact</a></li>
+  		</ul>
+  	</div>
+
+	<!--제목-->
+	<h1>PROJECT</h1>
+
+	<!--프로젝트 나열-->
+	<div class="list">
+    
+	<a href="4.html" class="project-list">
+		<img class="image" src="images/project1.png" width="320" height="320">
+		<p class="title">1.안심이</p>
+	</a>
+	
+	<a href="5.html" class="project-list">
+		<img class="image" src="images/project3.png" width="320" height="320">
+		<p class="title">2.DING DONG DANG</p>
+	</a>
+  
+
+	<a href="6.html" class="project-list">
+		<img class="image" src="images/project2.png" width="320" height="320">
+		<p class="title">3.HOWse</p>
+	</a>
+	</div>
+
+  </body>
+  </html>

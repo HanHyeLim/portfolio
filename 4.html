@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>project1</title>
+</head>
+
+
+<style>
+  body{font-family: 'NanumSquare', sans-serif;}
+
+    *{padding:0;
+      margin:0;}
+
+    /*네비게이션바*/
+    .navigationbar{height:120px;}
+
+    .navigationbar #menu{float:left;
+                     list-style:none;
+                   padding-left:60px;}
+
+    .navigationbar #menu li{float:left;
+            margin-right:32px;
+                        line-height:120px;}
+
+    .navigationbar #menu li a{text-decoration:none;
+                          color:#545454;
+                          font-size:21px;
+                          font-weight:medium;}
+    /*어플*/
+    .small-title{padding-left:172px;}
+    .s-t{text-align:left;
+        font-size:18px;
+        font-weight:bold;
+        color:gray;
+        line-height:24px;
+        border-bottom:1px solid gray;
+        width:1174px;
+        margin-top:48px;}
+
+    /*첫부분*/
+    .first{margin-top:48px;
+          padding-left:172px;}
+    
+    .writing h1{font-size:32px;
+                font-weight:bold;}
+
+    .writing .first-context{font-size:16px;
+                            text-align:justify;
+                            line-height:24px;
+                            width:568px;
+                            margin-top:16px;
+                            float:left;}
+    
+
+    .color{display:inline-block;
+           float:right;
+           padding-right:172px;
+           margin-bottom:8px;}
+
+
+    .blue{width:18px;
+          height:36px;
+          background-color:#4f99f7;
+          float:left;
+          margin-right:4px;}
+
+    .gradation{width:240px;
+               height:36px;
+               background:linear-gradient(45deg, #4f99f7 30%, #b593f5 70%);
+               float:left;
+               margin-right:4px;}   
+    
+    .purple{width:18px;
+          height:36px;
+          background-color:#b593f5;
+          float:left;}
+
+    .icon{float:right;
+      padding-right:172px;}
+
+    .main-image{margin-top:120px;
+                padding-left:172px;}
+    
+    .specify .specify-writing{font-size:16px;
+                     text-align:center;
+                     width:800px;
+                     line-height:24px;
+                     margin-top:48px;
+                     margin-left:auto;
+                     margin-right:auto;}
+
+    .use-video{display:block;
+         margin-left:auto;
+         margin-right:auto;
+         vertical-align:middle;}
+
+    .use{width:100%;
+         height:640px;
+         background-color:#f4f4f4;
+         margin-top:68px;
+         padding-top:100px;}
+
+    .helper{height:100%;
+            display:inline-block;
+            vertical-align:middle;}
+
+    .process-title{font-size:24px;
+                   text-align:center;
+                   font-weight:bold;
+                   margin-top:112px;
+                  margin-bottom:48px;}
+    
+    .process-image{display:block;
+                   margin-left:auto;
+                   margin-right:auto;
+                   margin-bottom:200px;}
+    
+    /*.step{padding-left:272px;}
+
+    .step .step-title{font-size:18px;
+                      width:130px;
+                      font-weight:bold;
+                      text-align:center;
+                      float:left;
+                      margin-right:164px;
+                      margin-top:16px;}
+
+    .step .step-context{font-size:14px;
+                        font-weight:lighter;
+                        text-align:center;
+                        margin-right:60px;
+                        display:inline-block;
+                        float:left;}
+
+    .line{border-top:2px solid gray;
+          width:1196px;
+          position:absolute;
+          margin-top:48px;}
+
+    .circle{border:3px solid gray;
+            background-color:white;
+            border-radius:50px;
+            width:18px;
+            height:18px;
+            display:inline-block;
+            float:left;
+            margin-right:272px;
+            margin-top:36px;}
+    
+    .first-line{padding-left:323px;}*/
+
+    .planning-point{display:block;
+                    margin-left:auto;
+                    margin-right:auto;
+                    margin-top:112px;}
+               
+ .all-function{margin-top:112px;}
+
+  .function .function-writing{background-color:#f4f4f4;
+                    width:50%;
+                    height:600px;
+                    display:inline-block;
+                    float:left;
+                    }
+
+  .function-title{font-size:24px;
+                  width:240px;
+                  font-weight:bold;
+                  margin-top:180px;
+                  margin-bottom:32px;
+                  padding-left:340px;
+                  line-height:40px;}
+
+  .function-title2{font-size:24px;
+                  width:240px;
+                  font-weight:bold;
+                  margin-top:180px;
+                  margin-bottom:32px;
+                  padding-left:200px;
+                  line-height:40px;}
+
+  .function-context{font-size:18px;
+                    width:240px;
+                    padding-left:340px;
+                    line-height:28px;}
+
+  .function-context2{font-size:18px;
+                    width:240px;
+                    padding-left:200px;
+                    line-height:28px;}
+  
+  .function-img2{padding-left:300px;
+                padding-top:72px;}
+
+
+  .function .function-image{
+                  display:inline-block;
+                  float:left;
+                  width:50%;
+                  height:600px;}
+
+  .function-img{padding-left:180px;
+                padding-top:72px;}
+
+  .last{margin-bottom:80px;
+        }
+
+
+  .p-s{font-size:24px;
+      font-weight:bold;
+      text-align:center;
+      margin-top:112px;}
+
+  .last-image{display:block;
+              margin-top:68px;
+              margin-left:auto;
+              margin-right:auto;}
+
+  .clearfix{clear:both;}
+
+</style>
+
+
+<body>
+	<!--네비게이션 바-->
+	<div class="navigationbar">
+		<ul id="menu">
+  			<li><a href="1.html">Home</a></li>
+  			<li><a href="2.html">Profile</a></li>
+  			<li><a href="3.html">Project</a></li>
+ 			 <li><a href="7.html">Contact</a></li>
+  		</ul>
+  	</div>
+  
+
+  <div class="contets">
+
+    <!--디자인 종류-->
+    <div class="small-title">
+      <p class="s-t">어플 디자인</p>
+    </div>
+
+    <!--어플 제목-->
+    <div class="first">
+      <div class="writing">
+        <h1>안심이</h1>
+        <p class="first-context">[안심이] 어플은 [서울시 안심이]를 리디자인 한 어플이다. 시민들의 밤길 안전이라는 모토는 같으나, 본 안심이는  ‘신고'에 중점을 둔 서울시 안심이와 다르게 ‘범죄 예방' 과 ‘불안감 해소'에 중점을 두었다.</p>
+      </div>
+      
+      <div class="color">
+        <div class="blue"></div>
+        <div class="gradation"></div>
+        <div class="purple"></div>
+      </div>
+
+      <div class="icon">
+        <img src="images/icon1.png" width="260">
+      </div>
+    </div>
+
+    <!--메인이미지-->
+    <div class="main-image">
+      <div calss="background-imgae">
+        <img src="images/main1.png" width="1174" height="480">
+      </div>
+      </div>
+
+    <!--내용 들어가는 글-->
+    <div class="specify">
+      <p class="specify-writing">[안심이]는 불안감을 느끼는 여성끼리의 연대감을 통해 여성들 서로가 도움을 줄 수 있도록 커뮤니티를 활용하고 그를 통해 불안감을 조성하는 환경을 개선하는 시스템으로, 범죄 예방을 위해 커뮤니티를 활용하는 독특한 특성을 가진다.</p>
+    </div>
+
+    <!--전체 사용 영상-->
+    <div class="use">
+      <img class="use-video" src="images/video1.gif" width="280">
+      <div class="hleper"></div>
+    </div>
+
+    <!--프로젝트 과정-->
+    <div class="process-title">프로젝트 과정</div>
+    <img class="process-image" src="images/process.png" width="1440px">
+    
+
+<!--
+    <div class="first-line">
+      <div class="line"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+     </div> 
+
+    <div class="process">
+      <div class="step">
+        <p class="step-title">문제발견</p>
+        <p class="step-title">시장조사</p>
+        <p class="step-title">사용자 조사</p>
+        <p class="step-title">기술 트렌드 조사 / 기술선정</p>
+      </div>
+
+        <div class="small-context">
+        <p class="step-context">리뷰분석 &<br>어피니티다이어그램</p>
+      </div>
+        <p class="step-context">설문조사<br>사용성테스트<br>1:1인터뷰</p>
+      </div>
+    </div>
+
+      <div class="second-line">
+       <div class="line"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+
+      <div class="step">
+        <p class="step-title">어플 컨셉 정의</p>
+      </div>
+
+       <div class="step">
+        <p class="step-title">시나리오</p>
+      </div>
+
+       <div class="step">
+        <p class="step-title">와이어프레임</p>
+      </div>
+
+       <div class="step">
+        <p class="step-title">디자인</p>
+      </div>
+
+    </div>-->
+
+    <!--기획 포인트1-->
+    <img class="planning-point" src="images/point1.png" width=1174px;>
+    <!--<div class="planning-point">
+      <p class="planning">기획 point1</p>
+
+      <div class="planning-context">
+        <p class="first-context">안심이 리디자인의 시작</p>
+        <p class="context2">사용자가 [서울시 안심이]를 필요로 하는 이유를 서울시 안심이 어플의 기능이 충족하고 있는가?</p>
+      </div>
+
+      <div class="planning-context">
+        <p class="first-context">시장조사 & 사용자 조사</p>
+        
+        <div class="second-context">
+        <p class="context2">범죄가 일어났을 때는 핸드폰을 잡을 수도 없을 거예요.</p>
+        <p class="context2">밤길이 너무 무서워요. 어느 길로 가야 안전할까요?</p>
+        <p class="context2">범죄가 일어나는 곳은 cctv가 없는 곳인데, cctv가 없는 곳에서 범죄를 방지할 수는 없나요?</p>
+        <p class="context2">스카우트 서비스는 시에서 운영하는 서비스인가요? 믿을 수 있는 서비스 인가요?</p>
+      </div>
+
+      <div class="summary">
+        <p class="sum">사용자는 [서울시 안심이]를 통해 밤길 범죄에 대한 예방과 ‘안전한 귀갓길'을 필요로 함</p>
+        <div class="direction">
+          <img class="direc" src="">
+        </div>
+        <p class="conclusion">“범죄 방지·예방 기능에 초점을 두고 기존 예방 기능을 심화, 발전”</p>
+      </div>
+    </div>-->
+    
+    <!--기획포인트2-->
+    <!--<div class="planning">
+      <p class="planning">기획 point2</p>
+
+      <div class="planning-context">
+        <p class="first-context">조사 과정 중 발견한 점</p>
+        
+        <div class="second-context">
+        <p class="context2">우리나라 여성 대부분이 ‘밤길’에 ‘두려움’을 느낀다.</p>
+        <p class="context2">밤우리나라는 실제 발생하는 범죄율에 비해 불안감을 느끼는 여성의 비율이 다른 나라보다 높다 → 뉴스와 기사 등 미디어의 자극적인 내용 노출로 범죄에 대한 불안감이 조성되기 때문</p>
+      </div>
+      
+      <div class="summary">
+        <div class="direction">
+          <img class="direc" src="">
+        </div>
+        <p class="conclusion">“귀갓길을 범죄에 대해 불안감으로 두려움에 떨어야 하는 사용자를 위해 ‘불안감 해소'에 대한 기능 추가”</p>
+      </div>
+
+    </div>
+
+  <div class="functionss">-->
+    
+    <!--기능소개-->
+    <div class="all-function">
+    <div class="function">
+      <div class="function-writing">
+        <p class="function-title">가로등과 cctv가<br>있는 경로 제공</p>
+        <p class="function-context">사용자가 가로등과 cctv가 많이 배치된 곳으로 귀가할 수 있도록, 귀가 경로를 제시한다.</p>
+      </div>
+      <div class="function-image">
+        <img class="function-img" src="images/road.gif" width="240">
+      </div>
+    </div>
+
+    
+    <!--기능소개2-->
+    <div class="function">
+      <div class="function-image">
+        <img class="function-img2" src="images/tag.gif" width="240">
+      </div>
+      <div class="function-writing">
+        <p class="function-title2">불안감을 느끼는 장소를<br>태그하여 공유</p>
+        <p class="function-context2">불안감을 느끼는 장소를 태그하고, 다른 사용자와 공유한다. 공유된 숫자가 많으면 대신 민원을 접수해준다.</p>
+      </div>
+    </div>
+
+
+     <!--기능소개3-->
+     <div class="function">
+      <div class="function-writing">
+        <p class="function-title">스카우트 예약 & <br>스카우트 정보 제공</p>
+        <p class="function-context">쉽고, 거부감 없이 스카우트 서비스를 사용할 수 있도록, 예약 서비스와 스카우트에 대한 정보를 제공한다.</p>
+      </div>
+      <div class="function-image">
+        <img class="function-img" src="images/skk.gif" width="240">
+      </div>
+    </div>
+   <div class="clearfix"></div>
+  </div>
+
+    <!--문제점과 해결방안-->
+    <!--<div class="problem">
+      <div class="problem-solution">
+        <p class="ps">problem 1</p>
+        <p class="ps-title">범죄 예방·방지를 위한 기능</p>
+        <p class="ps-context">cctv가 없는 골목에서 범죄예방에 대한 기능 부족 / 스카우트 사용 시 사용자가 느낄 불편함과 부담감 해소 방안 부재</p>
+      </div>
+
+      <div class="problem-solution">
+        <p class="ps">problem 2</p>
+        <p class="ps-title">불안감을 해소할 방법 부재</p>
+        <p class="ps-context">불안감을 느낀다는 이유만으로는 신고가 불가능해, 불안감을 해소할 수 있는 방법이 없음</p>
+      </div>-->
+      
+      <!--원-->
+     <!-- <div class="circle">
+        <div class="circle1">
+          <p class="empathy">공감</p>
+        </div>
+
+        <div class="circle2">
+          <p class="band">연대</p>
+        </div>
+      </div>
+
+        <div class="direction">
+          <img class="direc" src="">
+        </div>-->
+
+         <!--문제점과 해결방안-->
+    <!--<div class="problem">
+      <div class="problem-solution">
+        <p class="ps">solution 1 - 범죄 예방 기존 기능 발전</p>
+        <p class="ps-title">환경 정보, 안전 경로, 스카우트 정보 제공</p>
+        <p class="ps-context">경찰서, 지킴이집의 위치를 지도에 표시하여 제공
+가로등, cctv가 배치된 경로를 귀가 경로로 제시
+스카우트에 대한 정보를 제공하여 부담감 없이 서비스를 사용할 수 있도록 함</p>
+      </div>
+
+      <div class="problem-solution">
+        <p class="ps">solution 2 - 불안감 해소를 위한 기능 추가</p>
+        <p class="ps-title">커뮤니티를 통한 불안감 공유와 대리 민원 신고</p>
+        <p class="ps-context">불안감을 느꼈던 장소를 사용자들과 공유
+공유된 수가 많으면 민원접수 처리
+지역뉴스와 커뮤니티를 활용하여 정확한 지역 
+소식 제공</p>
+      </div>-->
+      
+      <!--마무리 이미지-->
+      <div class="last">
+        <p class="p-s">문제점과 해결방안</p>
+        <img class="last-image" src="images/problem-solution1.png" height="640">
+      </div>
+      
+  </body>
+  </html>
